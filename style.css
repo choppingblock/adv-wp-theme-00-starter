@@ -1,0 +1,38 @@
+/* @override 
+	http://20141002-01-wp-themes:8888/wp-content/themes/adv-wp-theme-00-starter/style.css */
+
+/*
+Theme Name: Adv WP Theme 00 Starter
+Theme URI: http://choppingblock.com
+Author: Matthew Richmond
+Author URI: http://choppingblock.com
+Description: For teaching.
+Version: 0.1
+
+License: 
+License URI:
+
+Tags: basic, starter
+*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+
+.wrap {
+	background-color: #fff;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+.content {
+	border: 1px solid red;
+}
