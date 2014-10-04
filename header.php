@@ -13,8 +13,9 @@
 	<body>
 		<div class="wrap">
 
-		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
-		<h2><?php bloginfo( 'description' ); ?></h2>
+		<header>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2><?php bloginfo( 'description' ); ?></h2>
+		</header>
 
 		<div class="content">
